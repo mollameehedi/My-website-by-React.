@@ -27,18 +27,40 @@ h1{
 }
 h2{ 
   font-size:60px;
+  color: var(--color-light);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 90px;
 }
 h3{ 
-  font-size:50px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: var(--color-light);
 }
 h4{ 
   font-size:40px;
 }
 h5{ 
-  font-size:30px;
+  font-size:18px;
+    color:var(--color-primary);
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+    margin-bottom: 10px;
+    text-align: center
 }
 h6{ 
   font-size:20px;
+}
+p{
+  font-size: 16px;
+    line-height: 28px;
+    color: var(--color-light);
+    margin-bottom: 22px;
+    transition: var(--transition);
 }
 .main{
     background: var( --body-collor);
